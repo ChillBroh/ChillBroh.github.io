@@ -98,7 +98,7 @@ const technologies = [
 
 const education = [
   {
-    name: "Bachlors Degree",
+    name: "Bachelor's degree",
     institute: "SriLanka Institute of Information Technology",
     year: "2021 - present",
     description:
