@@ -4,25 +4,20 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  travely,
+  neighbourly,
+  dicegame,
+  guessthenumber,
+  neighbourlyweb,
+  wildlife,
 } from "../assets";
 
 export const navLinks = [
@@ -72,18 +67,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -96,10 +85,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -107,10 +93,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -140,68 +122,154 @@ const education = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Travely",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is SLIIT 2nd year 2nd semester ITP project. Travely is a travel and tourism website with vehicle booking, hotel booking, special activity and also can book restaruants",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
         name: "mongodb",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "rest-api",
+        color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: travely,
+    source_code_link: "https://github.com/ChillBroh/Travely.git",
   },
   {
-    name: "Trip Guide",
+    name: "Neighbourly",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "MAD project using Kotlin in Android studio (Neighbourly - App for solution ideas for Economic crisis) for SLIIT 2nd year 2nd semester project",
     tags: [
       {
-        name: "nextjs",
+        name: "kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Android Studio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: neighbourly,
+    source_code_link:
+      "https://github.com/ChillBroh/MAD_Project_Neighbourly.git",
+  },
+  {
+    name: "Neighbourly (Web)",
+    description:
+      "Neighbourly is a web and mobile application created to address the economic crisis, food wastage, and poverty in rural Sri Lanka. The platform facilitates the sharing of surplus food and resources between individuals, businesses, and organizations. Users can list excess food items, connect with those in need, and contribute non-food items. Neighbourly aims to foster community collaboration, reduce food wastage, and uplift rural communities through technology and shared responsibility.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wordpress",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: neighbourlyweb,
+    source_code_link: "https://github.com/ChillBroh/Neighbourly-Website.git",
+  },
+  {
+    name: "Dice Game",
+    description:
+      "Two players can simultaneously play this game. Player 1 must initially press the button to roll the dice. If player 1 gets 1, the current player will switch to player 2, otherwise, player 1 can carry on and his score will be added to player 1's overall score. The winner of the game is the player who scores 100 points first",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dicegame,
+    source_code_link: "https://github.com/ChillBroh/Roll-The-Dice-Game-.git",
+  },
+  {
+    name: "Guess The Number",
+    description:
+      "In this game a player must Enter a number between 1-20. When the player hits enter computer will generate a random number and will check with the enterend number. If both numbers are matching player wins otherwise player gets another chance.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: guessthenumber,
+    source_code_link: "https://github.com/ChillBroh/Roll-The-Dice-Game-.git",
+  },
+  {
+    name: "Wild Life Trip Safari Management System ",
+    description:
+      "This is SLIIT 1st Year 2nd semester IWT project. Wildlife Quest SL Management system is one of the best and easy websites where you can plan your holiday Safari trip with many benefits under fair Packages. When a person who is fond of this system enters the web application, they can find out packages, Donations, Register, promotions, camping sites and availabilities. If a customer wants to do Reservation, they will have to get register to the web application. Both local and foreign customers can get register to the system, then a user account is created. These user accounts are managed by the system admin. Both Registered as well as non-registered customers can Donate Fund for the wildlife maintenance and Expenses by Selecting a suitable amount without login the system",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+    ],
+    image: wildlife,
+    source_code_link:
+      "https://github.com/ChillBroh/WILD-LIFE-TRIP-SAFARI_MANAGEMENT-SYSTEM.git",
   },
 ];
-
+neighbourlyweb;
 export { services, technologies, education, projects };

@@ -26,9 +26,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import travely from "./travely.png";
+import neighbourly from "./neighbourly.png";
+import dicegame from "./dicegame.png";
+import guessthenumber from "./guessthenumber.png";
+import neighbourlyweb from "./neighbourlyweb.png";
+import wildlife from "./wildlife.png";
 
 export {
   logo,
@@ -56,7 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  travely,
+  neighbourly,
+  dicegame,
+  guessthenumber,
+  neighbourlyweb,
+  wildlife,
 };
