@@ -1,0 +1,35 @@
+{
+  "hash": "29fe48d6",
+  "browserHash": "ecca1266",
+  "optimized": {
+    "@emotion/is-prop-valid": {
+      "src": "../../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js",
+      "file": "@emotion_is-prop-valid.js",
+      "fileHash": "5a39d5f5",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "97a1208f",
+      "needsInterop": false
+    },
+    "react-tilt": {
+      "src": "../../node_modules/react-tilt/dist/index.js",
+      "file": "react-tilt.js",
+      "fileHash": "4b071c7b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3MRZ5DPF": {
+      "file": "chunk-3MRZ5DPF.js"
+    },
+    "chunk-HG66IS5X": {
+      "file": "chunk-HG66IS5X.js"
+    },
+    "chunk-AC2VUBZ6": {
+      "file": "chunk-AC2VUBZ6.js"
+    }
+  }
+}
