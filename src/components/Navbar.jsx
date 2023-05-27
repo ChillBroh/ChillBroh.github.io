@@ -23,7 +23,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-auto h-20  rounded-full" />
+          <img src={logo} alt="logo" className="w-auto h-20 rounded-full" />
           <p className="text-white text-[18px font-bold cursor-pointer]">
             Ishara <span>| FullStack Developer</span>
           </p>
@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="sm:hidden flex flex-1  justify-end items-center">
+        <div className="sm:hidden">
           <img
             src={toggle ? close : menu}
             alt="menu"
