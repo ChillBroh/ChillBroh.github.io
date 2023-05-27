@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // node_modules/@emotion/memoize/dist/memoize.browser.esm.js
 function memoize(fn) {
   var cache = {};
@@ -19,14 +18,6 @@ var index = memoize_browser_esm_default(
   /* Z+1 */
 );
 var is_prop_valid_browser_esm_default = index;
-=======
-import {
-  init_is_prop_valid_browser_esm,
-  is_prop_valid_browser_esm_default
-} from "./chunk-3MRZ5DPF.js";
-import "./chunk-AC2VUBZ6.js";
-init_is_prop_valid_browser_esm();
->>>>>>> main
 export {
   is_prop_valid_browser_esm_default as default
 };
