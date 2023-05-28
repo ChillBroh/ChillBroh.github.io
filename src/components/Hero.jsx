@@ -7,6 +7,8 @@ import { FaGithub } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { FiTwitter } from "react-icons/fi";
+import { EarthCanvas } from "./canvas";
+import { slideIn } from "../utils/motion";
 
 const Hero = () => {
   return (
@@ -30,24 +32,23 @@ const Hero = () => {
               alt="Typing SVG"
             />
           </p>
-
           <div className="container mx-auto">
-            <div className="flex flex-col sm:flex-row gap-10 mt-10">
+            <div className="flex gap-5 mt-10 sm:gap-10">
               <Link to={"https://github.com/ChillBroh"}>
-                <FaGithub className="w-12 h-12 sm:w-20 sm:h-20" />
+                <FaGithub className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
               <Link to={"https://www.linkedin.com/in/isharamadusanka/"}>
-                <AiOutlineLinkedin className="w-12 h-12 sm:w-20 sm:h-20" />
+                <AiOutlineLinkedin className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
               <Link
                 to={
                   "https://instagram.com/chill_broh_98?igshid=NTc4MTIwNjQ2YQ=="
                 }
               >
-                <BsInstagram className="w-12 h-12 sm:w-20 sm:h-20" />
+                <BsInstagram className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
               <Link to={"https://twitter.com/ChillBroh_98"}>
-                <FiTwitter className="w-12 h-12 sm:w-20 sm:h-20" />
+                <FiTwitter className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
             </div>
           </div>

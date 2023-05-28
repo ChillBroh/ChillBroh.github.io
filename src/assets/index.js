@@ -32,6 +32,9 @@ import dicegame from "./dicegame.png";
 import guessthenumber from "./guessthenumber.png";
 import neighbourlyweb from "./neighbourlyweb.png";
 import wildlife from "./wildlife.png";
+import sliit from "./sliit.png";
+import richmond from "./richmond.png";
+import unawatuna from "./unawatuna.png";
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   guessthenumber,
   neighbourlyweb,
   wildlife,
+  sliit,
+  richmond,
+  unawatuna,
 };

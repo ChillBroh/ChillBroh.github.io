@@ -18,6 +18,9 @@ import {
   guessthenumber,
   neighbourlyweb,
   wildlife,
+  sliit,
+  richmond,
+  unawatuna,
 } from "../assets";
 
 export const navLinks = [
@@ -26,12 +29,16 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "about",
+    title: "CV",
   },
 ];
 
@@ -100,13 +107,17 @@ const education = [
   {
     name: "Bachelor's degree",
     institute: "SriLanka Institute of Information Technology",
+    icon: sliit,
+    iconBg: "#383E56",
     year: "2021 - present",
     description:
-      "Currently reading for my Bachelors' Degree in Software Engineering at SriLanka Institute of Information Technology (SLIIT)",
+      "Currently reading for my Bachelors' Degree in Software Engineering (Bsc.(Hons) Information Technology Specialization in Software Engineering) at SriLanka Institute of Information Technology (SLIIT) - 3.6 CGPA",
   },
   {
     name: "Advanced Level",
     institute: "Richmond College",
+    icon: richmond,
+    iconBg: "#383E56",
     year: "2015 - 2018",
     description:
       "Passed General Certificate Advanced Level Exam in Biology stream with 2 B (Biology, Chemistry) and 1 C (Physics) Passes  ",
@@ -114,6 +125,8 @@ const education = [
   {
     name: "Ordinary Level",
     institute: "Unawatuna M.V",
+    icon: unawatuna,
+    iconBg: "#383E56",
     year: "2009 - 2014",
     description:
       "Passed General Certificate Ordinary Level Exam with 9 A passes",

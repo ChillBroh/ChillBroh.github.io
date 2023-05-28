@@ -12,8 +12,8 @@ const About = () => {
   return (
     <div className="relative">
       <motion.div>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>About Me</p>
+        <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
       <div className="flex justify-start items-start mb-10 mt-10">
         <img
