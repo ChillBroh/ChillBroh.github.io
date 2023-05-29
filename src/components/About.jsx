@@ -7,6 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import Logo from "../assets/myphoto.png";
 import { GoCloudDownload } from "react-icons/go";
+import cvPDF from "../assets/Curriculum Vitae - Ishara Madusanka.pdf";
 
 const About = () => {
   return (
@@ -35,13 +36,18 @@ const About = () => {
         makes me getting along and working with people easily.
       </motion.p>
       <div className="flex flex-col sm:flex-row gap-10 mt-10">
-        <p className="mt-10 text-2xl sm:text-3xl text-[#915eff] flex flex-col sm:flex-row gap-4 sm:gap-8">
+        <a
+          href={cvPDF}
+          download
+          className="mt-10 text-2xl sm:text-3xl text-[#915eff] flex flex-col sm:flex-row gap-4 sm:gap-8"
+        >
           Download CV
           <span>
             <GoCloudDownload className="w-8 h-8 sm:w-10 sm:h-10" />
           </span>
-        </p>
+        </a>
       </div>
+
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
