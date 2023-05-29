@@ -1,3 +1,4 @@
+import { c } from "maath/dist/index-43782085.esm";
 import {
   mobile,
   backend,
@@ -21,6 +22,16 @@ import {
   sliit,
   richmond,
   unawatuna,
+  java,
+  cpp,
+  firebase,
+  kotlin,
+  mysql,
+  netlify,
+  php,
+  python,
+  bootstrap,
+  typescript,
 } from "../assets";
 
 export const navLinks = [
@@ -63,6 +74,18 @@ const services = [
 
 const technologies = [
   {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Typescript",
+    icon: typescript,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -70,29 +93,70 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "C++",
+    icon: cpp,
   },
 
+  {
+    name: "C++",
+    icon: cpp,
+  },
+
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+];
+
+const frameworks = [
   {
     name: "React JS",
     icon: reactjs,
   },
-
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
+  },
+];
+const hosting = [
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "Netlify",
+    icon: netlify,
+  },
+];
+
+const databases = [
+  {
     name: "MongoDB",
     icon: mongodb,
   },
-
+  {
+    name: "My SQL",
+    icon: mysql,
+  },
   {
     name: "git",
     icon: git,
@@ -285,4 +349,12 @@ const projects = [
   },
 ];
 neighbourlyweb;
-export { services, technologies, education, projects };
+export {
+  services,
+  technologies,
+  education,
+  projects,
+  frameworks,
+  databases,
+  hosting,
+};

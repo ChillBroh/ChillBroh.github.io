@@ -9,6 +9,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Education from "./Education";
 import Works from "./Works";
+import Skills from "./skills";
 
 import Contact from "./Contact";
 
@@ -23,4 +24,5 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
+  Skills,
 };

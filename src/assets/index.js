@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import cpp from "./tech/cpp.png";
+import firebase from "./tech/firebase.png";
+import kotlin from "./tech/kotlin.png";
+import mysql from "./tech/mysql.png";
+import netlify from "./tech/netlify.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import bootstrap from "./tech/bootstrap.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -50,6 +59,15 @@ export {
   figma,
   git,
   html,
+  java,
+  cpp,
+  firebase,
+  kotlin,
+  mysql,
+  netlify,
+  php,
+  python,
+  bootstrap,
   javascript,
   mongodb,
   nodejs,

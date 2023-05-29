@@ -44,6 +44,7 @@ const Contact = () => {
         text: "How Do I recognise you without a name? 😔",
       });
       setLoading(false);
+      return;
     }
     if (form.email === "") {
       Swal.fire({

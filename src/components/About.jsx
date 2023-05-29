@@ -16,12 +16,14 @@ const About = () => {
         <p className={styles.sectionSubText}>About Me</p>
         <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
-      <div className="flex justify-start items-start mb-10 mt-10">
-        <img
-          src={Logo}
-          className="w-full sm:w-[300px] h-auto rounded-full"
-          alt="Logo"
-        />
+      <div className="flex justify-start items-start mb-10 mt-10 p-10">
+        <div>
+          <img
+            src={Logo}
+            className="w-full sm:w-[300px] h-auto rounded-full"
+            alt="Logo"
+          />
+        </div>
       </div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
