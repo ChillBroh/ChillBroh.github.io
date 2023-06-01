@@ -9,6 +9,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FiTwitter } from "react-icons/fi";
 import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
+import Typed from "react-typed";
 
 const Hero = () => {
   return (
@@ -23,7 +24,14 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-start ">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <br />
-            <span className="text-[#915eff]">Ishara Madusanka</span>
+            {/* <span className="text-[#915eff]">Ishara Madusanka</span> */}
+            <Typed
+              className="text-[#915eff]"
+              strings={["Ishara Madusanka"]}
+              typeSpeed={150}
+              backSpeed={150}
+              loop="true"
+            />
           </h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
