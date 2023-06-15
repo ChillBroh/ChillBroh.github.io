@@ -24,14 +24,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-start ">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <br />
-            {/* <span className="text-[#915eff]">Ishara Madusanka</span> */}
-            <Typed
-              className="text-[#915eff]"
-              strings={["Ishara Madusanka"]}
-              typeSpeed={150}
-              backSpeed={150}
-              loop="true"
-            />
+            <span className="text-[#915eff]">Ishara Madusanka</span>
           </h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
