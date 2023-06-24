@@ -46,49 +46,6 @@ const EducationCard = ({ experience }) => {
 };
 
 const Education = () => {
-  // return (
-  //   <div>
-  //     <div>
-  //       <motion.div>
-  //         <h2 className={styles.sectionHeadText}>Education</h2>
-  //       </motion.div>
-  //     </div>
-  //     <div className="grid grid-rows-2 gap-10 mt-10">
-  //       <div className="flex flex-col-2 gap-16 bg-tertiary rounded-3xl p-10">
-  //         <div>
-  //           <p className="text-2xl font-bold">Bachelors's Degree</p>
-  //           <p className="italic ">
-  //             Sri Lanka Institute of Information Technology
-  //           </p>
-  //         </div>
-  //         <div>
-  //           <p className="text-xl font-bold">
-  //             Bsc. (Hons) in Software Engineering
-  //           </p>
-  //           <p className="italic ">
-  //             Currently reading for my Bachelors' Degree in Software Engineering
-  //             at Sri Lanka Institute of Information Technology (SLIIT)
-  //           </p>
-  //         </div>
-  //       </div>
-  //       <div className="flex flex-col-2 gap-16 bg-tertiary rounded-3xl p-10">
-  //         <div>
-  //           <p className="text-2xl font-bold">School Education</p>
-  //           <p className="italic ">Richmond College</p>
-  //         </div>
-  //         <div>
-  //           <p className="text-xl font-bold">
-  //             Bsc. (Hons) in Software Engineering
-  //           </p>
-  //           <p className="italic ">
-  //             Currently reading for my Bachelors' Degree in Software Engineering
-  //             at Sri Lanka Institute of Information Technology (SLIIT)
-  //           </p>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </div>
-  // );
   return (
     <>
       <motion.div variants={textVariant()}>

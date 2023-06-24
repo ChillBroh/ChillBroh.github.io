@@ -86,22 +86,12 @@ const technologies = [
     icon: java,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Kotlin",
+    icon: kotlin,
   },
   {
     name: "CSS 3",
     icon: css,
-  },
-
-  {
-    name: "C++",
-    icon: cpp,
-  },
-
-  {
-    name: "C++",
-    icon: cpp,
   },
 
   {
@@ -131,10 +121,6 @@ const frameworks = [
   {
     name: "Bootstrap",
     icon: bootstrap,
-  },
-  {
-    name: "Kotlin",
-    icon: kotlin,
   },
 ];
 const hosting = [
@@ -324,7 +310,7 @@ const projects = [
   {
     name: "Wild Life Trip Safari Management System ",
     description:
-      "This is SLIIT 1st Year 2nd semester IWT project. Wildlife Quest SL Management system is one of the best and easy websites where you can plan your holiday Safari trip with many benefits under fair Packages. When a person who is fond of this system enters the web application, they can find out packages, Donations, Register, promotions, camping sites and availabilities. If a customer wants to do Reservation, they will have to get register to the web application. Both local and foreign customers can get register to the system, then a user account is created. These user accounts are managed by the system admin. Both Registered as well as non-registered customers can Donate Fund for the wildlife maintenance and Expenses by Selecting a suitable amount without login the system",
+      "This is SLIIT 1st Year 2nd semester IWT project. Wildlife Quest SL Management system is one of the best and easy websites where you can plan your holiday Safari trip with many benefits under fair Packages. ",
     tags: [
       {
         name: "php",
