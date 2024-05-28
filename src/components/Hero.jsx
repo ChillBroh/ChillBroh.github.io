@@ -10,6 +10,8 @@ import { FiTwitter } from "react-icons/fi";
 import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
 import Typed from "react-typed";
+import { GoCloudDownload } from "react-icons/go";
+import cvPDF from "../assets/Curriculum Vitae - Ishara Madusanka.pdf";
 
 const Hero = () => {
   return (
@@ -23,8 +25,8 @@ const Hero = () => {
         </div>
         <div className="flex flex-col justify-center items-start ">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <br />
-            <span className="text-[#915eff]">Ishara Madusanka</span>
+            Hi, I'm
+            <span className="text-[#915eff]"> Ishara </span>
           </h1>
 
           <p className="mt-10">
@@ -32,6 +34,10 @@ const Hero = () => {
               src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2000&pause=2000&color=F7E976&width=1500&lines=A+Full+Stack+Developer+%7C%7C+Software+Engineering+Undergraduate"
               alt="Typing SVG"
             />
+          </p>
+          <p className="mt-10 text-2xl">
+            With <span className=" text-3xl text-[#F7E976]">3+ Years </span>{" "}
+            Developing Experience
           </p>
           <div className="container mx-auto">
             <div className="flex gap-5 mt-10 sm:gap-10">
@@ -52,6 +58,18 @@ const Hero = () => {
                 <FiTwitter className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
             </div>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-10 mt-10">
+            <a
+              href={cvPDF}
+              download
+              className="mt-10 text-2xl sm:text-3xl text-[#915eff] flex flex-col sm:flex-row gap-4 sm:gap-8"
+            >
+              Download CV
+              <span>
+                <GoCloudDownload className="w-8 h-8 sm:w-10 sm:h-10" />
+              </span>
+            </a>
           </div>
         </div>
 

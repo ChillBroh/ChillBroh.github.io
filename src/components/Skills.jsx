@@ -7,7 +7,6 @@ import { styles } from "../styles";
 const Skills = () => {
   return (
     <div>
-      <p className={styles.sectionSubText}>I'm familier with these</p>
       <h2 className={styles.sectionHeadText}>Languages and Frameworks</h2>
       <div>
         <p className="text-3xl mt-20 mb-20">Languages:</p>

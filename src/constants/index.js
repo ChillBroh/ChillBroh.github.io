@@ -32,6 +32,7 @@ import {
   python,
   bootstrap,
   typescript,
+  sezenta,
 } from "../assets";
 
 export const navLinks = [
@@ -55,16 +56,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "FullStack Developer",
     icon: backend,
   },
   {
-    title: "Kotlin Developer",
-    icon: web,
+    title: "Personal Tutor",
+    icon: mobile,
   },
   {
     title: "Content Writer",
@@ -180,6 +177,33 @@ const education = [
     year: "2009 - 2014",
     description:
       "Passed General Certificate Ordinary Level Exam with 9 A passes",
+  },
+];
+
+const experience = [
+  {
+    name: "Sezenta",
+    title: "Software Engineer - Intern",
+    icon: sezenta,
+    working_type: "Remote",
+    bg: "#383E56",
+    year: "2023 September - present",
+    details: [
+      "Developing and maintaining web applications and Algorithms using Software technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design for all devices and ensuring cross-browser compatibility.",
+    ],
+    techs: [
+      "React Js",
+      "Next Js",
+      "Angular",
+      "Nest Js",
+      "SpringBoot",
+      "AWS",
+      "Github",
+      "Docker",
+      "SQL",
+    ],
   },
 ];
 
@@ -343,4 +367,5 @@ export {
   frameworks,
   databases,
   hosting,
+  experience,
 };
