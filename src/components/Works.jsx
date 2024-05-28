@@ -8,6 +8,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const ProjectCard = ({
   index,
@@ -83,6 +85,12 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div>
+      <div className="mt-10 text-3xl justify-center flex flex-row gap-4">
+        <Link to={"https://github.com/ChillBroh"}>
+          For More Projects Visit My github Account
+        </Link>
+        <FaRegArrowAltCircleRight className="animate-jump" />
       </div>
     </>
   );

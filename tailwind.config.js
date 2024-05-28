@@ -21,6 +21,15 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.jpg')",
       },
+      keyframes: {
+        jump: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
+      animation: {
+        jump: "jump 1s infinite",
+      },
     },
   },
   plugins: [],

@@ -57,16 +57,15 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row gap-10 mt-10">
+          <div className="flex flex-col  gap-10 mt-10">
             <a
               href={cvPDF}
               download
               className="mt-10 text-2xl sm:text-3xl text-[#915eff] flex flex-col sm:flex-row gap-4 sm:gap-8"
             >
-              Download CV
-              <span>
-                <GoCloudDownload className="w-8 h-8 sm:w-10 sm:h-10" />
-              </span>
+              Download CV{" "}
+              <GoCloudDownload className="w-8 h-8 sm:w-10 sm:h-10" />
+              <span></span>
             </a>
           </div>
         </div>
