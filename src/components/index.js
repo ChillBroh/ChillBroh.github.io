@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Education from "./Education";
 import Works from "./Works";
-import Skills from "./skills";
+import Skills from "./Skills";
 
 import Contact from "./Contact";
 
