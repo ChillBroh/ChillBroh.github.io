@@ -33,6 +33,11 @@ import {
   bootstrap,
   typescript,
   sezenta,
+  nextjs,
+  nestjs,
+  springboot,
+  angular,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -99,6 +104,10 @@ const technologies = [
     name: "Python",
     icon: python,
   },
+  {
+    name: "C++",
+    icon: cpp,
+  },
 ];
 
 const frameworks = [
@@ -106,6 +115,27 @@ const frameworks = [
     name: "React JS",
     icon: reactjs,
   },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "SpringBoot",
+    icon: springboot,
+  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -204,6 +234,7 @@ const experience = [
       "Docker",
       "SQL",
     ],
+    projects: ["Big Value Box (BVB)", "NIBM E Library", "Halo Analytics Tool"],
   },
 ];
 

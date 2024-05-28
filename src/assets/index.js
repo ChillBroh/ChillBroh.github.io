@@ -29,11 +29,17 @@ import netlify from "./tech/netlify.png";
 import php from "./tech/php.png";
 import python from "./tech/python.png";
 import bootstrap from "./tech/bootstrap.png";
+import nextjs from "./tech/nextjs.png";
+import nestjs from "./tech/nestjs.png";
+import springboot from "./tech/springboot.png";
+import angular from "./tech/angular.png";
+import express from "./tech/express.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sezenta from "./company/sezenta.png";
 
 import travely from "./travely.png";
 import neighbourly from "./neighbourly.png";
@@ -44,9 +50,13 @@ import wildlife from "./wildlife.png";
 import sliit from "./sliit.png";
 import richmond from "./richmond.png";
 import unawatuna from "./unawatuna.png";
-import sezenta from "./company/sezenta.png";
 
 export {
+  springboot,
+  angular,
+  express,
+  nextjs,
+  nestjs,
   sezenta,
   logo,
   backend,

@@ -89,6 +89,7 @@ const ExperienceCard = ({
   year,
   details,
   techs,
+  projects,
 }) => {
   return (
     <div className="bg-tertiary false w-full  text-white justify-center  rounded-3xl min-h-[400px] gap-4 p-5  ">
@@ -118,6 +119,12 @@ const ExperienceCard = ({
           );
         })}
       </div>
+      {/* <div className=" flex flex-wrap gap-3 mb-5 justify-start">
+        Projects :
+        {projects.map((data, index) => {
+          return <div className=" p-5 text-white rounded-2xl">{data}</div>;
+        })}
+      </div> */}
       <div className=" flex flex-wrap gap-3 justify-center">
         {techs.map((data, index) => {
           return (
