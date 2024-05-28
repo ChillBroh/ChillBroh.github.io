@@ -8,7 +8,6 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { FiTwitter } from "react-icons/fi";
 import { EarthCanvas } from "./canvas";
-import { slideIn } from "../utils/motion";
 import Typed from "react-typed";
 import { GoCloudDownload } from "react-icons/go";
 import cvPDF from "../assets/Curriculum Vitae - Ishara Madusanka.pdf";
