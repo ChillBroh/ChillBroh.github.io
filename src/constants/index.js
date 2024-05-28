@@ -142,10 +142,6 @@ const frameworks = [
   },
 
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "Bootstrap",
     icon: bootstrap,
   },
