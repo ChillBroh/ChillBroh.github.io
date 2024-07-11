@@ -209,15 +209,15 @@ const education = [
 const experience = [
   {
     name: "Sezenta",
-    title: "Software Engineer - Intern",
+    title: "Associate Software Engineer ",
     icon: sezenta,
     working_type: "Remote",
     bg: "#383E56",
-    year: "2023 September - present",
+    year: "2024 April - present",
     details: [
-      "Developing and maintaining web applications and Algorithms using Software technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design for all devices and ensuring cross-browser compatibility.",
+      "Developed an Admin login system using Spring Boot and JWT for secure authentication and authorization. (NIBM E-Library)",
+      "Implemented pagination for all database tables to enhance data retrieval efficiency and improve user experience.  (NIBM E-Library)",
+      "Developed a tree view for the menu and menu items in the Halo analytics tool using React and NestJs, enhancing navigation and user interface. (Halo Anlytics tool)",
     ],
     techs: [
       "React Js",
@@ -225,12 +225,40 @@ const experience = [
       "Angular",
       "Nest Js",
       "SpringBoot",
+      "Tailwind CSS",
       "AWS",
       "Github",
       "Docker",
       "SQL",
     ],
-    projects: ["Big Value Box (BVB)", "NIBM E Library", "Halo Analytics Tool"],
+    projects: [
+      "Big Value Box (BVB)",
+      "NIBM E Library",
+      "Halo Analytics Tool",
+      "Street Burger Web App",
+    ],
+  },
+  {
+    name: "Sezenta",
+    title: "Software Engineer - Intern",
+    icon: sezenta,
+    working_type: "Remote",
+    bg: "#383E56",
+    year: "2023 September - 2024 March",
+    details: [
+      "Implemented a 3D Bin Packing Algorithm to optimize space utilization in logistics, manufacturing, and resource allocation.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design for all devices and ensuring cross-browser compatibility.",
+    ],
+    techs: [
+      "Next Js",
+      "Nest Js",
+      "Tailwind CSS",
+      "Github",
+      "SQL",
+      "Microservices",
+    ],
+    projects: ["Big Value Box (BVB)"],
   },
 ];
 

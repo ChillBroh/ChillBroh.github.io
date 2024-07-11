@@ -57,7 +57,7 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col  gap-10 mt-10">
+          <div className="flex flex-col pb-12  gap-10 mt-10">
             <a
               href={cvPDF}
               download
