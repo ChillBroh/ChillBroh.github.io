@@ -67,7 +67,7 @@ const Contact = () => {
 
     //if !empty
     const email = await emailjs.send(
-      "service_rflrbb8",
+      "service_j2kqw5v",
       "template_kfd5lcd",
       {
         from_name: form.name,
