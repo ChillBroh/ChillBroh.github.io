@@ -88,7 +88,7 @@ const Works = () => {
       </div>
       <div className="mt-10 text-3xl justify-center flex flex-row gap-4">
         <Link to={"https://github.com/ChillBroh"}>
-          For More Projects Visit My github Account
+          Visit My github Account to view 80+ projects
         </Link>
         <FaRegArrowAltCircleRight className="animate-jump" />
       </div>
