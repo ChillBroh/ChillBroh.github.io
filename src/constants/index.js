@@ -46,6 +46,7 @@ import {
   learnify,
   nasa,
   pmPulse,
+  avonet,
 } from "../assets";
 
 export const navLinks = [
@@ -223,7 +224,7 @@ const experience = [
   {
     name: "Avonet",
     title: "Associate Software Engineer ",
-    icon: sezenta,
+    icon: avonet,
     working_type: "Hybrid",
     bg: "#383E56",
     year: "2024 September - present",

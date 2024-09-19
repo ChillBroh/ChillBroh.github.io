@@ -40,6 +40,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import sezenta from "./company/sezenta.png";
+import avonet from "./company/avonet.png";
 
 import travely from "./travely.png";
 import neighbourly from "./neighbourly.png";
@@ -116,4 +117,5 @@ export {
   learnify,
   nasa,
   pmPulse,
+  avonet,
 };
