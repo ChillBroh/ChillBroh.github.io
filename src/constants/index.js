@@ -38,6 +38,14 @@ import {
   springboot,
   angular,
   express,
+  eventify,
+  eyezen,
+  eyezenMobile,
+  goTicket,
+  goTicketMobile,
+  learnify,
+  nasa,
+  pmPulse,
 } from "../assets";
 
 export const navLinks = [
@@ -64,12 +72,17 @@ const services = [
     title: "FullStack Developer",
     icon: backend,
   },
+
+  {
+    title: "Mobile Developer",
+    icon: mobile,
+  },
   {
     title: "Personal Tutor",
     icon: mobile,
   },
   {
-    title: "Content Writer",
+    title: "Freelancer",
     icon: creator,
   },
 ];
@@ -208,16 +221,37 @@ const education = [
 
 const experience = [
   {
+    name: "Avonet",
+    title: "Associate Software Engineer ",
+    icon: sezenta,
+    working_type: "Hybrid",
+    bg: "#383E56",
+    year: "2024 September - present",
+    details: ["React Mastering Techniques"],
+    techs: [
+      "React Js",
+      "Next Js",
+      "Nest Js",
+      "Tailwind CSS",
+      "AWS",
+      "Azure",
+      "Github",
+      "Docker",
+      "SQL",
+    ],
+    projects: [],
+  },
+  {
     name: "Sezenta",
     title: "Associate Software Engineer ",
     icon: sezenta,
     working_type: "Remote",
     bg: "#383E56",
-    year: "2024 April - present",
+    year: "2024 April - 2024 September",
     details: [
-      "Developed an Admin login system using Spring Boot and JWT for secure authentication and authorization. (NIBM E-Library)",
-      "Implemented pagination for all database tables to enhance data retrieval efficiency and improve user experience.  (NIBM E-Library)",
-      "Developed a tree view for the menu and menu items in the Halo analytics tool using React and NestJs, enhancing navigation and user interface. (Halo Anlytics tool)",
+      "Developed an Admin login system using Spring Boot and JWT for secure authentication and authorization. ",
+      "Implemented pagination for all database tables to enhance data retrieval efficiency and improve user experience.  ",
+      "Developed a tree view for the menu and menu items in the Halo analytics tool using React and NestJs, enhancing navigation and user interface.",
     ],
     techs: [
       "React Js",
@@ -236,6 +270,7 @@ const experience = [
       "NIBM E Library",
       "Halo Analytics Tool",
       "Street Burger Web App",
+      "PiFi",
     ],
   },
   {
@@ -263,6 +298,256 @@ const experience = [
 ];
 
 const projects = [
+  {
+    name: "Learnify",
+    description:
+      "E-learning management system. Users can select courses, enroll and start learning with watching video and completing quizes. Also there is admin and instructor dashboards",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "microservices",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: learnify,
+    source_code_link: "https://github.com/ChillBroh/Learnify-FE.git",
+  },
+  {
+    name: "NASA Details Finder",
+    description:
+      "This web application based on NASA public Apis to get the Picture of the Day, Telescope Images and the Mars Rover Images with Full Details. Web application is hosted",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "netlify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NASA-Apis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nasa,
+    source_code_link: "https://github.com/ChillBroh/NASA-FE.git",
+  },
+  {
+    name: "Eyezen",
+    description:
+      "Cutting-edge web app designed to enhance your visual experience! Our React  application combines cutting-edge technology with expert knowledge in eye care. EyeZen is your go-to solution for all things related to eye health",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-maps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ayurveda",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eyezen,
+    source_code_link: "https://github.com/ChillBroh/EyeZen-Mobile.git",
+  },
+  {
+    name: "Eyezen Mobile",
+    description:
+      "Cutting-edge mobile app designed to enhance your visual experience! Our React native application combines cutting-edge technology with expert knowledge in eye care. EyeZen is your go-to solution for all things related to eye health",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-maps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ayurveda",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eyezenMobile,
+    source_code_link: "https://github.com/ChillBroh/EyeZen-Mobile.git",
+  },
+  {
+    name: "Go Ticket",
+    description:
+      "Online Ticket Booking and Public Transport Management system. Using this web app, manager can manage users and see all the stats related to income and traffic",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "qr-scanner",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "public-transport",
+        color: "green-text-gradient",
+      },
+    ],
+    image: goTicket,
+    source_code_link: "https://github.com/ChillBroh/GoTicket-UI.git",
+  },
+  {
+    name: "Go Ticket Mobile",
+    description:
+      "Online Ticket Booking and Public Transport Management system. Using this mobile app can purchase tickets and topup the credit account",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "qr-scanner",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "public-transport",
+        color: "green-text-gradient",
+      },
+    ],
+    image: goTicketMobile,
+    source_code_link: "https://github.com/ChillBroh/GoTicket-Mobile.git",
+  },
+  {
+    name: "Eventify",
+    description:
+      "A web application for Event Management. This app includes realtime chat featue as well",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "real-time-chat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eventify,
+    source_code_link: "https://github.com/ChillBroh/Entertainment-WEB.git",
+  },
   {
     name: "Travely",
     description:

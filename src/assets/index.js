@@ -50,6 +50,14 @@ import wildlife from "./wildlife.png";
 import sliit from "./sliit.png";
 import richmond from "./richmond.png";
 import unawatuna from "./unawatuna.png";
+import eventify from "./eventify.jpg";
+import eyezen from "./eyezen-web.jpeg";
+import eyezenMobile from "./eyezen-mobile.jpeg";
+import goTicket from "./go-ticket-web.jpeg";
+import goTicketMobile from "./go-ticket-mobile.jpeg";
+import learnify from "./learnify.png";
+import nasa from "./nasa.png";
+import pmPulse from "./pm-pulse.jpg";
 
 export {
   springboot,
@@ -100,4 +108,12 @@ export {
   sliit,
   richmond,
   unawatuna,
+  eventify,
+  eyezen,
+  eyezenMobile,
+  goTicket,
+  goTicketMobile,
+  learnify,
+  nasa,
+  pmPulse,
 };
