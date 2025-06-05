@@ -228,7 +228,7 @@ const experience = [
     icon: circles,
     working_type: "Hybrid",
     bg: "#383E56",
-    year: "2024 September - 2025 May",
+    year: "2025 May - Present",
     details: [],
     techs: [
       "SpringBoot",
