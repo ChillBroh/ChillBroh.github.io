@@ -41,6 +41,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import sezenta from "./company/sezenta.png";
 import avonet from "./company/avonet.png";
+import circles from "./company/circles.png";
 
 import travely from "./travely.png";
 import neighbourly from "./neighbourly.png";
@@ -118,4 +119,5 @@ export {
   nasa,
   pmPulse,
   avonet,
+  circles,
 };

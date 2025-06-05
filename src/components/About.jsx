@@ -101,7 +101,9 @@ const ExperienceCard = ({
             className="md:w-12 md:h-12 h-16 w-16   "
           />
           <span className="flex ml-4 flex-col">
-            <p className="text-white font-bold ml-2 text-3xl">{name}</p>
+            <p className="text-white whitespace-nowrap font-bold ml-2 text-3xl">
+              {name}
+            </p>
             <p className="text-white ml-2">{working_type}</p>
           </span>
         </span>

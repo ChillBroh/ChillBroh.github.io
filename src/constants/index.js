@@ -47,6 +47,7 @@ import {
   nasa,
   pmPulse,
   avonet,
+  circles,
 } from "../assets";
 
 export const navLinks = [
@@ -222,13 +223,36 @@ const education = [
 
 const experience = [
   {
+    name: "Circles Life",
+    title: "Software Engineer I",
+    icon: circles,
+    working_type: "Hybrid",
+    bg: "#383E56",
+    year: "2024 September - 2025 May",
+    details: [],
+    techs: [
+      "SpringBoot",
+      "RabbitMQ",
+      "MySQL",
+      "GitLab",
+      "Grafana",
+      "Microservices",
+    ],
+    projects: [],
+  },
+  {
     name: "Avonet",
     title: "Associate Software Engineer ",
     icon: avonet,
     working_type: "Hybrid",
     bg: "#383E56",
-    year: "2024 September - present",
-    details: [],
+    year: "2024 September - 2025 May",
+    details: [
+      "worked on the Maxxlink project as a Full Stack Developer from the scratch, where I was responsible for both frontend and backend development tasks.",
+      "The project utilized a multi-tenancy architecture and was built using NestJS, Next.js, TypeORM, PostgreSQL, and Microsoft Azure",
+      "Collaborating with cross-functional teams to enhance system performance and reliability",
+      "Managing version control and CI/CD workflows with Bitbucket",
+    ],
     techs: [
       "React Js",
       "Next Js",
@@ -236,9 +260,13 @@ const experience = [
       "Tailwind CSS",
       "AWS",
       "Azure",
-      "Github",
+      "BitBucket",
       "Docker",
-      "SQL",
+      "CI/CD",
+      "PostgreSQL",
+      "Multi -  Tenancy Architecture",
+      "Material UI",
+      "Zod",
     ],
     projects: [],
   },
@@ -250,9 +278,10 @@ const experience = [
     bg: "#383E56",
     year: "2024 April - 2024 September",
     details: [
-      "Developed an Admin login system using Spring Boot and JWT for secure authentication and authorization. ",
-      "Implemented pagination for all database tables to enhance data retrieval efficiency and improve user experience.  ",
-      "Developed a tree view for the menu and menu items in the Halo analytics tool using React and NestJs, enhancing navigation and user interface.",
+      "Built scalable web applications using Next.js, NestJS, Angular, and Spring Boot within a microservices architecture",
+      "Integrated multiple AWS services, including Cognito and S3, for secure cloud solutions",
+      "Engineered complex algorithms, including an Australian postal fee calculator, to optimize logistics operations",
+      "Designed intuitive UI/UX features such as tree views and pagination to enhance data retrieval and user experience",
     ],
     techs: [
       "React Js",
@@ -264,7 +293,10 @@ const experience = [
       "AWS",
       "Github",
       "Docker",
+      "PostgreSQL",
       "SQL",
+      "Ant Design",
+      "Microservices",
     ],
     projects: [
       "Big Value Box (BVB)",
@@ -291,7 +323,8 @@ const experience = [
       "Nest Js",
       "Tailwind CSS",
       "Github",
-      "SQL",
+      "PostgreSQL",
+      "Ant Design",
       "Microservices",
     ],
     projects: ["Big Value Box (BVB)"],
