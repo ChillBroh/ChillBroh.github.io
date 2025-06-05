@@ -240,6 +240,7 @@ const experience = [
     ],
     projects: [],
   },
+
   {
     name: "Avonet",
     title: "Associate Software Engineer ",
